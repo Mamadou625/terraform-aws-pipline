@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = "ca-entral-1"
+  region  = "ca-central-1"
 }
 
 resource "aws_instance" "app_server" {

@@ -10,8 +10,3 @@ terraform {
 provider "azurerm" {
   features {}
 }
-
-resource "azurerm_resource_group" "example" {
-  name     = "azure_pipeline" # small typo fix
-  location = "West Europe"
-}
